@@ -1,7 +1,5 @@
 from datasets import load_dataset
 
-print("Loading GSM8K dataset...")
-
 dataset = load_dataset("gsm8k", "main")
 
 print(dataset)
