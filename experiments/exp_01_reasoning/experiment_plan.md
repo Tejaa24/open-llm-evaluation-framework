@@ -2,22 +2,34 @@
 
 ## Objective
 
-Compare reasoning performance of open-source LLMs.
+Evaluate the reasoning capability of a language model using the GSM8K benchmark dataset.
 
-## Models
+## Benchmark
 
-- Gemma
-- Llama
-- Mistral
+GSM8K (Grade School Math 8K)
 
-## Dataset
+## Metrics
 
-GSM8K
+* Accuracy
+* Consistency
+* Hallucination Rate
+* Reliability
 
-## Metric
+## Methodology
 
-Accuracy
+1. Load benchmark questions.
+2. Generate model responses.
+3. Compare predictions against ground truth answers.
+4. Compute evaluation metrics.
+5. Visualize results.
 
 ## Expected Outcome
 
-Identify strengths and weaknesses in mathematical reasoning tasks.
+The framework should provide quantitative measurements of model reasoning performance and reliability.
+
+## Deliverables
+
+* Evaluation metrics
+* Benchmark results
+* Visualization charts
+* Experiment report
