@@ -1,56 +1,86 @@
 # Open-LLM-Evaluation-Framework
 
-A research-oriented framework for evaluating open-source Large Language Models (LLMs) across reasoning, factuality, consistency, and hallucination benchmarks.
+A research-oriented framework for evaluating open-source Large Language Models (LLMs) across reasoning, factuality, consistency, reliability, and hallucination benchmarks.
 
-## Research Motivation
+## Overview
 
-As Large Language Models become increasingly capable, systematic evaluation is critical for understanding model strengths, weaknesses, and failure modes.
+This project provides a reproducible evaluation framework for benchmarking open-source LLMs using standardized datasets, custom evaluation metrics, experiment tracking, and result visualization.
 
-This project aims to provide a reproducible evaluation framework for benchmarking open-source LLMs on diverse tasks.
+The goal is to support systematic analysis of model performance and reliability across multiple reasoning and factuality tasks.
 
-## Research Objectives
+## Features
 
-- Evaluate reasoning capabilities
-- Measure factual accuracy
-- Analyze response consistency
-- Detect hallucination behavior
-- Compare multiple open-source LLMs
+* Benchmark-based LLM evaluation
+* Accuracy measurement
+* Consistency analysis
+* Reliability scoring
+* Hallucination detection
+* Experiment planning and tracking
+* Result visualization
+* Research documentation workflow
 
-## Planned Models
+## Supported Benchmarks
 
-- Gemma
-- Llama
-- Mistral
-
-## Planned Benchmarks
-
-- GSM8K
-- TruthfulQA
-- HellaSwag
+* GSM8K
+* TruthfulQA
+* HellaSwag
 
 ## Evaluation Metrics
 
-- Accuracy
-- Consistency
-- Reliability
-- Hallucination Rate
+| Metric             | Description                           |
+| ------------------ | ------------------------------------- |
+| Accuracy           | Measures correctness of model outputs |
+| Consistency        | Measures stability across evaluations |
+| Reliability        | Measures overall dependability        |
+| Hallucination Rate | Measures unsupported factual claims   |
 
 ## Repository Structure
 
 ```text
-docs/
 datasets/
-src/
+docs/
 experiments/
 results/
-visualizations/
-report/
+src/
 presentation/
 ```
 
-## Current Status
+## Current Progress
 
-Project initialization and research planning phase.
+Completed:
+
+* Evaluation metrics implementation
+* Evaluation pipeline prototype
+* GSM8K benchmark prototype
+* Experiment planning workflow
+* Methodology documentation
+* Dataset documentation
+* Result visualization pipeline
+
+## Sample Results
+
+| Metric             | Score |
+| ------------------ | ----- |
+| Accuracy           | 0.80  |
+| Consistency        | 0.88  |
+| Reliability        | 0.90  |
+| Hallucination Rate | 0.10  |
+
+## Future Work
+
+* Multi-model comparison
+* Automated benchmark execution
+* Statistical analysis
+* Interactive dashboards
+* Expanded benchmark coverage
+
+## Research Interests
+
+* Large Language Models
+* Explainable AI
+* Transformer Interpretability
+* AI Safety
+* Machine Learning Research
 
 ## Author
 
@@ -58,9 +88,3 @@ Adi Lakshamma Bonam
 
 Computer Science Undergraduate
 
-Interested in:
-- Large Language Models
-- Explainable AI
-- Transformer Interpretability
-- AI Safety
-- Machine Learning Research
